@@ -19,8 +19,6 @@ Using machine learning, I wanted to see if a model could be built to predict Bes
 
 
 
-
-
 ## Tools
 
 Jupyter Notebook, Scikit-learn (machine learning), Matplotlib
@@ -29,7 +27,10 @@ Jupyter Notebook, Scikit-learn (machine learning), Matplotlib
 
 ## Data
 
-Data set pulled from [Kaggle](https://www.kaggle.com/rohitsahoo/xxxxxxxxxxxxxx).  This required substantial cleaning. Categories were added, removed, and names changed over time which made it hard to compare years, so I created fifteen basic category buckets. I removed the first five years from the data set as the award ceremony was a different beast in the beginning and it would complicate finding patterns in more recent years, which was my primary interest.
+Data set pulled from [Kaggle](https://https://www.kaggle.com/unanimad/the-oscar-award). 
+
+This required substantial cleaning. Categories were added, removed, and names changed over time which made it hard to compare years, so I created fifteen basic category buckets. I removed the first five years from the data set as the award ceremony was a different beast in the beginning and it would complicate finding patterns in more recent years, which was my primary interest.
+
 
 
 ## MachineLearning
@@ -41,11 +42,12 @@ This took some trial and error, running the test numerous times, but it wasn't r
 
 (If I wanted to take it further I could potentially add genre, rating, box office numbers, and time of year the film was released to my model -- but I was more interested in predicting based on as little knowledge as possible.)
 
+
+
 ## Results
 
 With the above method, I brought my model up to a 45-55% success rate for guessing winner, and 95% success at guessing losing films.  (I was most concerned about the winner percentage, as you could predict that every film is a loser in a year and get four out of five right.)
-
-show pic
+https://www.kaggle.com/unanimad/the-oscar-award
 
 This was much better than my first run, but it also shows the unpredictability of the Oscars. (2020 for instance, had a huge upset with foreign movie Parasite winning.)
 
@@ -55,9 +57,9 @@ However, my model revealed some surprising trends that, although not originally 
 
 ## Graphs
 
-Measuring the influence of 
+Measuring the influence of each category in the model, a 'Best Actress' nomination is a suprisingly poor indicator for whether or not that film won Best Picture. In fact, a film that has a Supporting Actor nomination is a much better indicator.
 
-One thing that really surprised me is that a Best Actress Nomination is a really poor indicator for whether or not that film won Best Picture (as seen by analyzing my model's feature importance score). In fact, a film that has a Supporting Actor nomination is a much better indicator.
+![Sample Graph](static/graph_sample.png)
 
 It turns out, only a small ratio of Best Picture winners garnered Actress Nominations compared to Actor. Perhaps an optimistic, hopeful take on this would be that that trend is changing, but plotting the nominations on a line graph reveal that that gap is widening.
 
