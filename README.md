@@ -60,7 +60,7 @@ However, my model revealed some surprising trends that, although not originally 
 
 Measuring the influence of each category in the model, a 'Best Actress' nomination is a suprisingly poor indicator for whether or not that film won Best Picture. In fact, a film that has a Supporting Actor nomination is a much better indicator.
 
-![Sample Graph](Resources/actor_nom_trophy_graph_influence.jpg)
+![Sample Graph](Resources/actor_nom_trophy_graph.jpg)
 
 It turns out, only a small ratio of Best Picture winners garnered Actress Nominations compared to Actor. Perhaps an optimistic, hopeful take on this would be that that trend is changing, but plotting the nominations on a line graph reveal that that gap is widening.
 
