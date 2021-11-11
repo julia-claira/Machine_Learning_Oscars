@@ -3,7 +3,7 @@
 
 ## Description 
 
-Using machine learning, I wanted to see if a model could be built to predict Best Picture winners based soley on the overall Oscar nomination category list and without any other information about the films. There were some surprsing results that,  though beyond my initial scope, pushed me to explore further (one reason I love data is dicovering unexpected narratives).
+Using machine learning, I wanted to see if a model could be built to predict Best Picture winners by analyzing Oscar nomination patterns. There were some surprsing results that,  though beyond my initial scope, pushed me to explore further (one reason I love data is dicovering unexpected narratives).
 
 
 
