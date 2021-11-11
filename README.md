@@ -62,6 +62,8 @@ Measuring the influence of each category in the model, a 'Best Actress' nominati
 
 ![Sample Graph](Resources/actor_nom_trophy_graph.jpg)
 
+![Sample Graph](Resources/influence.png)
+
 It turns out, only a small ratio of Best Picture winners garnered Actress Nominations compared to Actor. Perhaps an optimistic, hopeful take on this would be that that trend is changing, but plotting the nominations on a line graph reveal that that gap is widening.
 
 ![Sample Graph](Resources/actor_nom_line.png)
