@@ -11,7 +11,7 @@ Using machine learning, I wanted to see if a model could be built to predict Bes
 
 * [Tools](#Tools)
 * [Data](#Data)
-* [Machine Learning](#MachineLearning)
+* [Machine Learning](#Machine Learning)
 * [Results](#Results)
 * [Graphs](#Graphs)
 * [Contact](#Contact)
@@ -32,7 +32,7 @@ This required substantial cleaning. Categories were added, removed, and names ch
 
 
 
-## MachineLearning
+## Machine Learning
 Using a random forest test, my first model only analyzed the total number of nominations per film ('Best Director', 'Best Actress', 'Sound Mixing', etc), with the assumption that Best Picture winners tended to get more nominations overall. This resuled in a predictably poor performance: only correctly guess ing15% of the winners in my sample. 
 
 From there, I started giving certain awards more weight to generate a score. For instance, 'Best Director' might count as 5 points, 'Special Effects' 2 points, etc. With this scoring system it was less about how many nominations a film received, but the type and combinations of awards.
