@@ -1,4 +1,3 @@
-![Sample Graph](Resources/logo.png)
 
 # Academy Awards - Machine Learning
 
