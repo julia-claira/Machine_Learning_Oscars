@@ -12,7 +12,7 @@ Using machine learning, I wanted to see if a model could be built to predict Bes
 
 * [Tools](#Tools)
 * [Data](#Data)
-* [Data](#MachineLearning)
+* [Machine Learning](#MachineLearning)
 * [Results](#Results)
 * [Graphs](#Graphs)
 * [Contact](#Contact)
@@ -47,7 +47,8 @@ This took some trial and error, running the test numerous times, but it wasn't r
 ## Results
 
 With the above method, I brought my model up to a 45-55% success rate for guessing winner, and 95% success at guessing losing films.  (I was most concerned about the winner percentage, as you could predict that every film is a loser in a year and get four out of five right.)
-https://www.kaggle.com/unanimad/the-oscar-award
+
+![Sample Graph](Resources/prediction_oscar.png)
 
 This was much better than my first run, but it also shows the unpredictability of the Oscars. (2020 for instance, had a huge upset with foreign movie Parasite winning.)
 
@@ -59,12 +60,11 @@ However, my model revealed some surprising trends that, although not originally 
 
 Measuring the influence of each category in the model, a 'Best Actress' nomination is a suprisingly poor indicator for whether or not that film won Best Picture. In fact, a film that has a Supporting Actor nomination is a much better indicator.
 
-![Sample Graph](static/graph_sample.png)
+![Sample Graph](Resources/actor_nom_trophy_graph_influence.jpg)
 
 It turns out, only a small ratio of Best Picture winners garnered Actress Nominations compared to Actor. Perhaps an optimistic, hopeful take on this would be that that trend is changing, but plotting the nominations on a line graph reveal that that gap is widening.
 
-
-
+![Sample Graph](Resources/actor_nom_line.png)
 
 
 
